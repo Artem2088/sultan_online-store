@@ -1,0 +1,246 @@
+.card-shop {
+    display: flex;
+    flex-direction: column;
+    padding: 45px 0 60px;
+}
+
+.card-shop__wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1366px;
+    width: 100%;
+}
+
+.card-shop__bread-crumbs {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 120%;
+    color: rgba(63, 78, 101, 1);
+}
+
+.card-shop__wrapper-product {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 65px;
+
+}
+
+.card-shop__image {
+    max-width: 664px;
+    width: 100%;
+    height: 100%;
+}
+
+.card-shop__block {
+    padding-right: 36px;
+    width: 100%;
+}
+
+.card-shop__span-actual {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: rgba(31, 216, 93, 1);
+    padding-bottom: 10px;
+}
+
+.card-shop__title {
+    margin: 0;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 150%;
+    color: rgba(17, 17, 17, 1);
+}
+
+.card-shop__box-bottle {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 10px 0 25px;
+}
+
+.card-shop__weigth-img {
+    width: 20px;
+    height: 20px;
+}
+
+.card-shop__span-weigth {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: rgba(63, 78, 101, 1);
+}
+
+.card-shop__span-big {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(63, 78, 101, 1);
+    margin: 0 43px;
+}
+
+.card-shop__box-basket {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 20px;
+}
+
+.card-shop__price {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 130%;
+    color: rgba(17, 17, 17, 1);
+}
+
+.card-shop__button-basket {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 19px;
+    gap: 12px;
+}
+
+.card-shop__button-basket_span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.card-shop__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.card-shop__btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 70px -11px rgba(43, 28, 1, 0.04);
+    border-radius: 10px;
+    padding: 0;
+}
+
+.card-shop__btn-share {
+    width: 77px;
+    height: 77px;
+}
+
+.card-shop__btn-span {
+    width: 316px;
+    height: 77px;
+}
+
+.card-shop__btn-prais {
+    width: 186px;
+    height: 77px;
+}
+
+.card-shop__span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(63, 78, 101, 1);
+    max-width: 316px;
+}
+
+.card-shop__span-prais {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(63, 78, 101, 1);
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.card-show__download-img {
+    size: 17px;
+}
+
+.card-shop__ul-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 35px 0 30px;
+}
+
+.card-shop__li-span {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(63, 78, 101, 1);
+}
+
+.card-shop__description-box {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-shop__description-title {
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(17, 17, 17, 1);
+}
+
+.card-shop__description-img {
+    width: 7px;
+    height: 7px;
+    padding-left: 5px;
+}
+
+.card-shop__description {
+    margin: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 150%;
+    color: rgba(63, 78, 101, 1);
+    padding: 15px 0 20px;
+}
+
+.card-shop__specifications {
+    max-width: 194px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    border-top: 1px dashed #3F4E65;
+}
+
+.card-shop__specification-title {
+    padding-bottom: 10px;
+}
+
+.card-shop__specification-li {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(63, 78, 101, 1);
+}

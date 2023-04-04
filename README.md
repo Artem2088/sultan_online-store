@@ -63,3 +63,8 @@
 - работа: https://artem2088.github.io/sultan_online-store/
 
 ### Стек технологий:
+
+- HTML;
+- CSS;
+- React;
+- mockApi;

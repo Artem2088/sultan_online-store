@@ -1,0 +1,118 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 921px;
+    height: 796px;
+    background: linear-gradient(89.86deg, #8A94AB 0.13%, rgba(138, 148, 171, 0) 99.89%);
+    backdrop-filter: blur(6.5px);
+    z-index: -1;
+}
+
+.banner__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1366px;
+    width: 100%;
+
+}
+
+.banner__image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    object-fit: cover;
+}
+
+.banner__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 570px;
+    height: 796px;
+    width: 100%;
+
+}
+
+.banner__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 110%;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+
+.banner__subtitle {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    padding: 40px 0 60px;
+}
+
+.banner__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 19px;
+    gap: 12px;
+    width: 300px;
+    height: 95px;
+}
+
+.banner__button-span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.15em;
+    color: rgba(255, 255, 255, 1);
+}
+
+.banner__sub-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 91px;
+    max-width: 477px;
+    width: 100%;
+}
+
+.banner__button-plus {
+    width: 39px;
+    height: 39px;
+    color: rgba(255, 255, 255, 1);
+    padding: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.banner__button-plus_span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 1);
+    max-width: 166px;
+    width: 100%;
+    padding-left: 10px;
+}
