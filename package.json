@@ -1,7 +1,7 @@
 {
   "name": "sultan",
   "version": "0.1.0",
-  "homepage": "https://artem2088.github.io/sultan_online-store/",
+  "homepage": " https://artem2088.github.io/sultan_online-store/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -11,6 +11,7 @@
     "@types/node": "^16.18.18",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-content-loader": "^6.2.1",
     "react-dom": "^18.2.0",
